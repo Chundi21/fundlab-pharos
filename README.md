@@ -1,6 +1,6 @@
 # FundLab
 
-![FundLab Logo](public/assets/logo.png)
+![FundLab Logo](public/assets/Logo.png)
 
 ## Bridging scientists and supporters through transparent, decentralized crowdfunding
 
