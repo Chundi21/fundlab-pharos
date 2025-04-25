@@ -1,5 +1,5 @@
 
-export const defaultChainId = 656476
+export const defaultChainId = 50002
 
 type ChainInfo = {
   explorer: string
@@ -13,11 +13,11 @@ type ChainInfo = {
 }
 
 export const CHAIN_INFO: { [key: number]: ChainInfo } = {
-  656476: {
-    explorer: "https://edu-chain-testnet.blockscout.com",
-    label: "EDU Chain",
-    nativeCurrency: { name: "EDU", symbol: "EDU", decimals: 18 },
-    rpcUrl: "https://rpc.open-campus-codex.gelato.digital",
+  50002: {
+    explorer: "https://pharosscan.xyz/",
+    label: "Pharos Devnet",
+    nativeCurrency: { name: "Pharos Devnet", symbol: "PTT", decimals: 18 },
+    rpcUrl: "https://devnet.dplabs-internal.com/",
   },
 }
 
