@@ -48,8 +48,8 @@ const buildWalletConnectConnector = () => {
             chains: [defaultChainId],
             showQrModal: true,
             metadata: {
-              name: 'wallet-connection-example',
-              description: 'Example app for demostrating wallet connection using web3-react',
+              name: 'Fundlab',
+              description: 'FundLab is a Web3-powered platform that connects researchers with global supporters to fund groundbreaking scientific research through transparent, decentralized crowdfunding.',
               url: process.env.NEXT_PUBLIC_SITE_URL || "",
               icons: ['https://avatars.githubusercontent.com/u/37784886']
             },
@@ -74,7 +74,7 @@ export const [coinbaseWallet, hooks] = initializeConnector<CoinbaseWallet>(
       actions,
       options: {
         url: '',
-        appName: 'web3-react',
+        appName: 'Fundlab',
       },
     })
 )
@@ -98,7 +98,7 @@ const buildNetworkConnector = () => {
 }
 
 const onConnectionError = (error: Error) => {
-  console.log(`web3-react error: ${error}`)
+  console.log(`Fundlab error: ${error}`)
 }
 
 export const PRIORITIZED_CONNECTORS: { [key in ConnectionType]: Connection } = {
